@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6e6;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    width: 400px;
+    height: 450px;
+    position: relative; 
+}
+
+#main-gif {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #d63384;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex; /* Ajoute Flexbox */
+    justify-content: center; /* Centre les boutons horizontalement */
+    align-items: center; /* Aligne les boutons verticalement */
+    position: relative; /* Permet au bouton "Non" de se positionner par rapport à cette boîte */
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#yes-btn {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+#no-btn {
+    background-color: #400000;
+    color: white;
+    transition: 0.1s ease; 
+}
